@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet";
-import FlowiseEmbed from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
 
 export default function ChatBot() {
     return(
