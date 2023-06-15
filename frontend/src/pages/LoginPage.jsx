@@ -20,8 +20,8 @@ export default function LoginPage() {
     try {
       account.createOAuth2Session(
         "google",
-        "http://localhost:3000/home",
-        "http://localhost:3000/"
+        "https://app-write-hackathon.vercel.app/home",
+        "https://app-write-hackathon.vercel.app/"
       );
       toast.success("Redirecting to Google Auth");
     } catch (error) {
