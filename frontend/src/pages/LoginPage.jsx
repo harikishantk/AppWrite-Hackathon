@@ -20,7 +20,7 @@ export default function LoginPage() {
     try {
       account.createOAuth2Session(
         "google",
-        "https://localhost:3000/home",
+        "https://cloud.appwrite.io/v1",
         "https://localhost:3000/"
       );
       toast.success("Redirecting to Google Auth");
